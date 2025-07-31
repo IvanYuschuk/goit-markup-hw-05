@@ -424,6 +424,9 @@ p {
     padding-bottom: 8px;
     padding-top: 8px;
     color: #ffffff;
+    font-size: 12px;
+    line-height: 2;
+    letter-spacing: 0.04em
 }
 .f-input::placeholder{
     font-family: inherit;
