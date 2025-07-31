@@ -412,9 +412,7 @@ p {
     gap: 24px;
     align-items: baseline;
 }
-.input-div {
-    max-width: 264px;
-}
+
 .f-input {
     background-color: transparent;
     border: 1px solid #ffffff;
@@ -429,15 +427,12 @@ p {
 }
 .f-input::placeholder{
     font-family: inherit;
-        font-weight: 400;
-        font-size: 12px;
-        line-height: 200%;
-        letter-spacing: 0.04em;
-        color: #ffffff;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 200%;
+    letter-spacing: 0.04em;
+    color: #ffffff;
 
-}
-.footer-label {
-    display: block;
 }
 .footer-button {
     border-radius: 4px;
@@ -453,20 +448,20 @@ p {
     color: #ffffff;
     align-self: self-end;
     border: none;
-    display: flex;
-    gap: 16px;
+    cursor: pointer;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-.footer-button-text {
     font-weight: 500;
     font-size: 16px;
     line-height: 150%;
     letter-spacing: 0.04em;
-    text-align: center;
     color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .button-icon {
     fill: #ffffff;
+    margin-left: 16px;
 }
 .footer-button:hover,
 .footer-button:focus{
