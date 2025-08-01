@@ -679,7 +679,7 @@ input[type="checkbox"]:checked {
 .modal-checkbox-input:checked + .modal-label-checkbox .checkbox-div {
     background-color: #404bbf;
     border: none;
-    fill: #FCFCFC
+    fill: #F4F4FD
 }
 
 .modal-button {
