@@ -507,6 +507,9 @@ p {
     padding: 72px 24px 24px 24px;
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+.modal-form {
+    margin-bottom: 8px;
+}
 
 .close-div{
     position: absolute;
@@ -561,51 +564,61 @@ p {
 }
 
 .modal-name-input {
+    background-color: transparent;
+    outline: transparent;
     display: block;
     margin-bottom: 4px;
-    border: 1px solid #2E2F42;
+    border: 1px solid rgba(46, 47, 66, 0.4);
     border-radius: 4px;
     width: 360px;
     height: 40px;
     padding-left: 38px;
-    transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
         
 }
 
 .modal-phone-input {
+    background-color: transparent;
+    outline: transparent;
     display: block;
     margin-bottom: 4px;
-    border: 1px solid #2E2F42;
+    border: 1px solid rgba(46, 47, 66, 0.4);
     border-radius: 4px;
     width: 360px;
     height: 40px;
     padding-left: 38px;
-    transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
         
 }
 
 .modal-email-input {
+    background-color: transparent;
+    outline: transparent;
     display: block;
     margin-bottom: 4px;
-    border: 1px solid #2E2F42;
+    border: 1px solid rgba(46, 47, 66, 0.4);
     border-radius: 4px;
     width: 360px;
     height: 40px;
     padding-left: 38px;
-    transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
         
 }   
 
 .modal-comment-input {
+    background-color: transparent;
+    outline: transparent;
     display: block;
     margin-bottom: 16px;
-    border: 1px solid #2E2F42;
+    border: 1px solid rgba(46, 47, 66, 0.4);
     border-radius: 4px;
     width: 360px;
     height: 120px;
     padding-left: 16px;
-    transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+
+
 .modal-name-input:focus-within,
 .modal-phone-input:focus-within,
 .modal-email-input:focus-within,
@@ -634,8 +647,9 @@ p {
 .modal-icon {
     fill: #2E2F42;
     position: absolute;
-    top: 11px;
+    top: 50%;
     left: 16px;
+    transform: translateY(-50%);
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .modal-checkbox {
